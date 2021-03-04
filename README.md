@@ -1,5 +1,5 @@
-# Recruitment Site
-Project Nxchange is an innovative web platform designed to help diasporans remit their earnings easily back to their native country.
+# Talentrix
+Talentrix is a web application for conducting advertising vacancies and conducting recruitment. It ls -al
 
 ## Table of Contents
 
@@ -10,7 +10,7 @@ Project Nxchange is an innovative web platform designed to help diasporans remit
 * [Status](#status)
 
 ## Overview
-Recruitment platform is in the developmental stage and more functionalities will be added as the development progresses.
+Talentrix is in the developmental stage and more functionalities will be added as the development progresses.
 
 ## Technology Stack
 The tech stack includes:
