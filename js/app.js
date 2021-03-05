@@ -1,17 +1,3 @@
-/**
- * 
- * Manipulating the DOM exercise.
- * Exercise programmatically builds navigation,
- * scrolls to anchors from navigation,
- * and highlights section in viewport upon scrolling.
- * 
- * Dependencies: None
- * 
- * JS Version: ES2015/ES6
- * 
- * JS Standard: ESlint
- * 
-*/
 
 /**
  * Define Global Variables
@@ -57,11 +43,6 @@ const scrollToView = (eventObj, sectionID) => {
     const targetSec = document.querySelector(`#${sectionID}`);
     targetSec.scrollIntoView({ block: 'end', behavior: 'smooth' })
 }
-/**
- * End Helper Functions
- * Begin Main Functions
- * 
-*/
 
 // build the nav
 sectionEls.forEach((section) => {
@@ -97,16 +78,5 @@ anchrs.forEach(anch => {
     });
 })
 
-/**
- * End Main Functions
- * Begin Events
- *
-*/
-
-// Build menu 
-
-// Scroll to section on link click
-
-// Set sections as active
 
 
