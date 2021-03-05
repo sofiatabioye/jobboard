@@ -11,21 +11,15 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-html {
+html, body {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
   font-family: Avenir;
+  height: 100%;
+  margin: 0;
 }
 
-body {
-  background-image: url("../img/cool-background.svg");
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-color: #bbdefb30 !important;
-  width: 100%;
-  height: auto;
-}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -271,7 +265,6 @@ textarea {
 }
 
 nav {
-  /*margin-bottom: 30px;*/
   font-family: Avenir;
   height: 100px;
 }
@@ -281,8 +274,13 @@ nav {
   color: black !important;
 }
 .main{
-  /*background-color: #FAFAFC;*/
-
+  background-image: url("../img/cool-background.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-color: #bbdefb30 !important;
+  width: 100%;
+  min-height: 100%;
+  padding-top: 10px;
 }
 .title {
   font-weight: bolder;
@@ -328,18 +326,47 @@ nav {
   position: absolute;
   z-index: 2;
   display: block;
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1.2rem;
+  height: 1.2rem;
   line-height: 2.347rem;
+  margin: 15px 10px;
   text-align: center;
   pointer-events: none;
   color: #aaa;
 }
 .has-search input {
   border: none;
+  border-radius: 10px;
+  width: 100%;
   background: #ffffff;
-  padding: 15px;
+  padding: 15px 35px;
 }
 .icon {
   color: #03a9f4;
+}
+.footer {
+  /*position: sticky;*/
+  /*position: -webkit-sticky; !* Safari *!*/
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 30px 0px;
+  color: #F6F7FA;
+  background-color: #23226B !important;
+  /*background: none !important;*/
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.job-description{
+  text-align: justify;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #5e6569;
+  font-family: Avenir;
+}
+section.jobs {
+  background-color: #F7F7FB;
 }

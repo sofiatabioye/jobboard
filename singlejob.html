@@ -1,0 +1,254 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Job Board</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <!-- Material Design for Bootstrap fonts and icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&family=Nunito:wght@200;300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js" integrity="sha512-UwcC/iaz5ziHX7V6LjSKaXgCuRRqbTp1QHpbOJ4l1nw2/boCfZ2KlFIqBUA/uRVF0onbREnY9do8rM/uT/ilqw==" crossorigin="anonymous"></script>
+
+  <!-- Material Design for Bootstrap CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+  <div class="container">
+    <!--  <a class="navbar-brand" href="#">Navbar</a>-->
+    <a class="navbar-brand" href="#">
+      <img src="img/logo.png" width="auto" height="50" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Web Development</a>
+            <a class="dropdown-item" href="#">Mobile App Development</a>
+            <a class="dropdown-item" href="#">Data Science</a>
+            <a class="dropdown-item" href="#">Dev Ops</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Support</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <button class="btn btn-outline-success btn-md" type="submit" style="border-color: #03a9f4; color: #03a9f4; border-radius: 2px; border-width: 2px">Browse Jobs</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="main">
+  <div class="container">
+    <div class="row cs-title mt-5 mb-4 mr-1 ml-1">
+      <a href="index.html"> <i class="fa fa-long-arrow-alt-left mr-3"></i>Back</a>
+    </div>
+    <div class="row mb-3">
+     <div class="col-sm-12 col-md-12 col-lg-9 col-xs-12">
+       <div class="card">
+         <div class="card-body">
+           <img class="job-logo mr-4" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1780334d5f7%20text%20%7B%20fill%3A%23007bff%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A2pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1780334d5f7%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%23007bff%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2212.2890625%22%20y%3D%2216.9%22%3E32x32%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" width="70" height="70" alt="">
+           <div>
+             <p class="float-right">
+               <span class="uppercase">July 20, 2021</span>
+             </p>
+             <p class="card-title">Noveltric</p>
+             <h4 class="card-text">Senior Software Engineer</h4>
+             <span class="role mr-2" >Developer</span>
+             <span class="float-right"><button class="btn btn-submit text-uppercase" style="background-color: #03a9f4; border-radius: 5px; color: white">Apply now</button></span>
+           </div>
+           <div class="mt-3 mb-3">
+             <span class="duration uppercase mr-4"> <span class="icon"><i class="far fa-spin fa-clock mr-2" aria-hidden="true"></i></span> Full Time</span>
+             <span class="mr-3">|</span>
+             <span class="duration uppercase mr-4"> <span class="icon"><i class="far fa-map mr-2" aria-hidden="true"></i></span> Lagos</span>
+             <span class="mr-3">|</span>
+             <span class="duration uppercase mr-4"> <span class="icon"><i class="fas fa-money-check mr-2" aria-hidden="true"></i></span> N 400,000</span>
+           </div>
+           <hr/>
+           <h3 class="mb-3 mt-3">Job Description</h3>
+           <div class="job-description">
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus augue sagittis erat consectetur est. Blandit blandit nec mauris pulvinar. Lectus duis amet tortor, sit tincidunt. Rhoncus tincidunt imperdiet penatibus vitae risus, vitae. Blandit auctor justo nisl massa.
+
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus augue sagittis erat
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus.
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl pharetra faucibus suspendisse ultrices dolor feugiat eget. Justo, arcu, pellentesque pulvinar quam. Tincidunt sed in scelerisque tempus montes, nisi, mauris ultrices facilisis. Varius fringilla amet, tellus faucibus amet sit nulla dignissim risus.
+            </p>
+             <ul>
+               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+               <li>Aliquam lobortis ligula sit amet arcu ullamcorper dictum.</li>
+               <li>Sed vel metus et diam rhoncus fringilla.</li>
+               <li>Curabitur in neque ac nulla bibendum sodales sit amet quis est.</li>
+               <li>Curabitur efficitur metus eu viverra vestibulum.</li>
+               <li> Proin faucibus elit vel ante feugiat, ut accumsan sem elementum.</li>
+               <li>Phasellus convallis leo sed mauris fermentum, et ornare magna varius.</li>
+               <li>Proin placerat dui ut neque pulvinar, ut posuere tortor tristique.</li>
+               <li> Maecenas nec lorem hendrerit, viverra nibh eget, scelerisque dui.</li>
+               <li> Mauris tincidunt eros eu nisl ullamcorper congue.</li>
+               <li> Proin vehicula lectus eget lectus consequat feugiat.</li>
+             </ul>
+           <p>
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus augue sagittis erat
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus.
+             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           </p>
+             <div class="float-right">Share On:
+               <span><i class="fab fa-twitter icon fa-2x" aria-hidden="true"></i></span>
+               <span><i class="fab fa-facebook icon fa-2x" aria-hidden="true"></i></span>
+               <span><i class="fab fa-instagram icon fa-2x" aria-hidden="true"></i></span>
+             </div>
+           </div>
+         </div>
+       </div>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-3 col-xs-12 col-side">
+        <div class="card mb-4">
+          <h5 class="card-body">Ready to apply for this job?</h5>
+          <p class="job-card-text"></p>
+          <div class="card-body">
+            <button class="btn btn-primary btn-lg text-uppercase">Apply Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="jobs">
+   <div class="container">
+     <div class="row pt-5 pb-5">
+
+       <div class="col-md-4">
+         <a href="#">
+         <div class="card mb-4 p-3">
+          <div class="card-body">
+            <img class="job-logo mr-4" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1780334d5f7%20text%20%7B%20fill%3A%23007bff%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A2pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1780334d5f7%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%23007bff%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2212.2890625%22%20y%3D%2216.9%22%3E32x32%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" width="50" height="50" alt="">
+            <h4 class="card-title">Noveltric</h4>
+            <span class="uppercase">July 20, 2021</span>
+            <h4 class="card-text mt-3 mb-3">Senior Software Engineer</h4>
+            <span class="role mr-2" >Developer</span>
+            <span class="duration uppercase"> <span class="icon"><i class="far fa-spin fa-clock mr-2" aria-hidden="true"></i></span> Full Time</span>
+           <p class="job-card-text"></p>
+          </div>
+         </div>
+         </a>
+       </div>
+
+       <div class="col-md-4">
+         <a href="#">
+           <div class="card mb-4 p-3">
+             <div class="card-body">
+               <img class="job-logo mr-4" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1780334d5f7%20text%20%7B%20fill%3A%23007bff%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A2pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1780334d5f7%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%23007bff%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2212.2890625%22%20y%3D%2216.9%22%3E32x32%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" width="50" height="50" alt="">
+               <h4 class="card-title">Noveltric</h4>
+               <span class="uppercase">July 20, 2021</span>
+               <h4 class="card-text mt-3 mb-3">Senior Software Engineer</h4>
+               <span class="role mr-2" >Developer</span>
+               <span class="duration uppercase"> <span class="icon"><i class="far fa-spin fa-clock mr-2" aria-hidden="true"></i></span> Full Time</span>
+               <p class="job-card-text"></p>
+             </div>
+           </div>
+         </a>
+       </div>
+
+       <div class="col-md-4">
+         <a href="#">
+           <div class="card mb-4 p-3">
+             <div class="card-body">
+               <img class="job-logo mr-4" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2232%22%20height%3D%2232%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2032%2032%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1780334d5f7%20text%20%7B%20fill%3A%23007bff%3Bfont-weight%3Abold%3Bfont-family%3AArial%2C%20Helvetica%2C%20Open%20Sans%2C%20sans-serif%2C%20monospace%3Bfont-size%3A2pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1780334d5f7%22%3E%3Crect%20width%3D%2232%22%20height%3D%2232%22%20fill%3D%22%23007bff%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2212.2890625%22%20y%3D%2216.9%22%3E32x32%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" width="50" height="50" alt="">
+               <h4 class="card-title">Noveltric</h4>
+               <span class="uppercase">July 20, 2021</span>
+               <h4 class="card-text mt-3 mb-3">Senior Software Engineer</h4>
+               <span class="role mr-2" >Developer</span>
+               <span class="duration uppercase"> <span class="icon"><i class="far fa-spin fa-clock mr-2" aria-hidden="true"></i></span> Full Time</span>
+               <p class="job-card-text"></p>
+             </div>
+           </div>
+         </a>
+       </div>
+     </div>
+   </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Find your next great opportunity</h2>
+        <p>Join our newsletter and receive our best job openings in your inbox</p>
+        <div class="subscribe">
+          <form>
+            <input type="email" >
+            <button class="btn btn-success" type="submit" style="background-color: #03a9f4; color: #ffffff; border-radius: 2px; border-width: 2px">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="float-right">
+          <h6>Follow Us</h6>
+          <div class="social-media">
+            <span><i class="fab fa-twitter-square icon fa-2x" aria-hidden="true"></i></span>
+            <span><i class="fab fa-facebook-square icon fa-2x" aria-hidden="true"></i></span>
+            <span><i class="fab fa-instagram-square icon fa-2x" aria-hidden="true"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--    <div class="row">-->
+    <p class="float-right mb-4">
+      &#169 Copyright 2020 Talentrix
+    </p>
+
+    <!--    </div>-->
+  </div>
+</footer>
+<script src="js/vendor/modernizr-3.11.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+</body>
+
+</html>
